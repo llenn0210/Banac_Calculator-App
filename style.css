@@ -1,5 +1,5 @@
 body {
-    background-color: paleturquoise;
+    background-color: rgba(6, 7, 97, 0.893);
     font-size: larger;
     font-weight: bold;
 
@@ -13,7 +13,11 @@ h1{
     border-radius: 12px;
     width:30%;
     margin-left: 33.5%;
-    
+    box-shadow: 0 4px 8px rgba(0, 0, 10,10);
+    text-shadow: 0 4px 8px rgba(0, 0, 10, 0.5);
+    color: rgb(22, 22, 134);
+    border: 2px solid black;
+    font-family: 'Courier New', Courier, monospace;
 }
 #calForm{
     margin: 40px auto;  
@@ -22,22 +26,53 @@ h1{
     align-items: center;
     max-width: 550px;
     
-    background-color: rgb(208, 197, 74);
+    background-color: rgb(5, 10, 74);
     padding: 24px;
     border-radius: 12px;
+    border: 2px solid rgb(255, 255, 255);
+    font-family: 'Courier New', Courier, monospace;
     
 }
+label{
+    color: rgb(255, 255, 255);
+    font-size: larger;
+    margin: 10px;
+    border: 2px solid rgb(255, 255, 255);
+}
+
 input{
     height: 30px;
+     border: 2px solid rgb(255, 255, 255);
 }
 button{
     width: 350px;
     height: 45px;
     font-size: large;
     margin: 10px;
-    border-radius: 5%;
+    border: 2px solid black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+}
+#result{
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 550px;
+    
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    border-radius: 12px;
+    border: 2px solid black;
 }
 #fnumber{
     font-size: larger;
     text-align: center;
+     border: 2px solid black;
+    
+}
+#snumber{
+    font-size: larger;
+    text-align: center;
+    border: 2px solid black;
 }

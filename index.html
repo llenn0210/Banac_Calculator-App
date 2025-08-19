@@ -6,7 +6,6 @@
     <title>Calculator Application</title>
 
     <link rel="stylesheet", href="style.css">
-
 </head>
 <body>
     <h1> Calculator Application</h1>
@@ -21,40 +20,8 @@
         <button type="button" id="multiply">Multiplication</button>
         <button type="button" id="divide">Division</button>
     </form>
-    <script>
-        const result =  document.getElementById('result');
-
-        document.getElementById('add').addEventListener('click', function(){
-            const first_number = document.getElementById('fnumber').value;
-            const second_number = document.getElementById('snumber').value;
-            const answer = Number(first_number) + Number(second_number);
-            result.textContent = 'result = '+ answer;
-
-        });
-
-        document.getElementById('subtract').addEventListener('click', function() {
-        event.preventDefault();
-        const first_number = document.getElementById('fnumber').value;
-        const second_number = document.getElementById('snumber').value;
-        const answer = Number(first_number) - Number(second_number);
-        result.textContent = 'result = ' + answer;
-        });
-
-        document.getElementById('multiply').addEventListener('click', function() {
-        event.preventDefault();
-        const first_number = document.getElementById('fnumber').value;
-        const second_number = document.getElementById('snumber').value;
-        const answer = Number(first_number) * Number(second_number);
-        result.textContent = 'result = ' + answer;
-        });
-
-        document.getElementById('divide').addEventListener('click', function() {
-        event.preventDefault();
-        const first_number = document.getElementById('fnumber').value;
-        const second_number = document.getElementById('snumber').value;
-        const answer = Number(first_number) / Number(second_number);
-        result.textContent = 'result = ' + answer;
-    });
-    </script>
+    
+    <script src="script.js"></script>
+    
 </body>
 </html>
